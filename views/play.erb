@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Test</title>
+		<link rel="stylesheet" href="/style.css">
+	</head>
+ 
+	<body>
+
+<ul>
+	<li>
+		<a href="/play/rock"><img src="/rock.jpg"></a>, <a href="/play/paper"><img src="/paper.jpg"></a>, <a href="/play/scissors"><img src="/scissors.jpg"></a>
+	</li>
+</ul>
+ 
+<div>
+Your choice was <%= @player_choice %>,
+Computer choice is <%= @computer_choice %>.
+ 
+<%= @result %>
+</div>
+	</body>
+</html>
